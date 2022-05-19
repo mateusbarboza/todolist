@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todolist em Javascript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css”>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="task-input">
+            <i class="fa-solid fa-bars"></i>
+            <input type="text" placeholder="Adicionar uma nova tarefa">
+        </div>
+        <div class="controles">
+            <div class="filtros">
+                <spam id="todos">Todos</spam>
+                <spam id="pendentes">Pedentes</spam>
+                <spam id="finalizados">Finalizados</spam>
+            </div>
+            <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box">
+        <li class="task">
+            <label for="">
+                <input type="checkbox" id="1">
+                <p>ok</p>
+            </label>
+            <div class="setting">
+                <i class="uil uil-ellipsis-h"></i>
+            </div>
+        </li>
+    </ul>
+    </div> 
 </body>
 </html>

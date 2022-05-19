@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: bordex-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #3c87ff;
+}
+.wrapper{
+    max-width: 405px;
+    margin: 137px auto;
+    background: #fff;
+    border-radius: 7px;
+    padding: 28px 0 30px;
+}
+.task-input{
+    height: 52px;
+    padding: 0 25px;
+    position: relative;
+}
+.task-input img{
+    position: absolute;
+    top: 50%;
+    transform: translate(17px, -50%);
+}
+.task-input input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 20px 0px 53px;  
+    border: 1px solid #999; 
+}
+.task-input input::placeholer{
+    color: #bfbfbf;
+}
+.controles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 25px;
+    border-bottom: 1px solid #ccc;
+}
+.filtros span{
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 17px;
+}
+filtros span.active{
+    color: #3c87ff;
+}
+.controles .clear-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 7px 13px;
+    background: #3c87ff;
+}
