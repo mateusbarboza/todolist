@@ -11,28 +11,19 @@
 <body>
     <div class="wrapper">
         <div class="task-input">
-            <i class="fa-solid fa-bars"></i>
+            <img src="bars-icon.svg" alt="icon">
             <input type="text" placeholder="Adicionar uma nova tarefa">
         </div>
-        <div class="controles">
-            <div class="filtros">
+        <div class="controls">
+            <div class="filters">
                 <spam id="todos">Todos</spam>
                 <spam id="pendentes">Pedentes</spam>
                 <spam id="finalizados">Finalizados</spam>
             </div>
-            <button class="clear-btn">Clear All</button>
+            <button class="clear-btn">Limpar</button>
     </div>
-    <ul class="task-box">
-        <li class="task">
-            <label for="">
-                <input type="checkbox" id="1">
-                <p>ok</p>
-            </label>
-            <div class="setting">
-                <i class="uil uil-ellipsis-h"></i>
-            </div>
-        </li>
-    </ul>
-    </div> 
+    <ul class="task-box"></ul>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
